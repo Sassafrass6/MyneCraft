@@ -1,0 +1,15 @@
+material cubemat {
+	technique {
+		pass {
+			lighting on
+			ambient 0.1 1.0 0.2 1.0
+			diffuse 0.1 1.0 0.2 1.0
+			emissive .5 .5 .5 1
+			cull_software back
+			texture_unit {
+				texture grass.jpg
+			}
+
+		}
+	}
+}

@@ -1,0 +1,143 @@
+
+
+material Black_Ceramic 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Black_Ceramic
+        {
+            ambient 0.009999999776482582 0.009999999776482582 0.009999999776482582 1.0
+            diffuse 0.007999999940395353 0.007999999940395353 0.007999999940395353 1.0
+            specular 0.05000000074505806 0.05000000074505806 0.05000000074505806 1.0 5.0
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Flame genrated by blender2ogre 0.6.0
+
+material Flame 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Flame
+        {
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive .9 .5 .05 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Candle genrated by blender2ogre 0.6.0
+
+material Candle 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Candle
+        {
+            ambient 0.800000011920929 0.6803562045097351 0.4949258863925934 1.0
+            diffuse 0.6400000190734865 0.5442849717182661 0.39594071501405104 1.0
+            specular 0.20000000298023224 0.20000000298023224 0.20000000298023224 1.0 3.75
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Wick genrated by blender2ogre 0.6.0
+
+material Wick 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Wick
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

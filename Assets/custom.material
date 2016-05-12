@@ -1,0 +1,26 @@
+custom.material
+
+
+material day-night
+{
+    receive_shadows on
+
+    technique
+    {
+        pass day-night
+        {
+            max_lights 1
+            ambient 0.990000011920929 0.9900000011920929 0.9900000011920929 1.0
+            diffuse 0.9900000190734865 0.9900000190734865 0.9900000190734865 1.0
+            emissive -.2 -.2 -.2 1
+
+            texture_unit 
+            {
+                texture day.png
+                tex_address_mode wrap
+                colour_op modulate
+                scroll_anim 0.01 0
+            }
+        }
+    }
+}

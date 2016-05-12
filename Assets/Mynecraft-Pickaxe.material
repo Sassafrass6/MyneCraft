@@ -1,0 +1,268 @@
+
+// Light_brown genrated by blender2ogre 0.6.0
+material Light_brown 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Light_brown
+        {
+            ambient 0.17464743554592133 0.08865559101104736 0.012286488898098469 1.0
+            diffuse 0.13971795051869673 0.07092447386569489 0.009829191264945136 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Med_brown genrated by blender2ogre 0.6.0
+
+material Med_brown 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Med_brown
+        {
+            ambient 0.3 0.2 0.01 1.0
+            diffuse 0.07267337549736164 0.03733207341033329 0.006418553835430052 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Med2_brown genrated by blender2ogre 0.6.0
+
+material Med2_brown 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Med2_brown
+        {
+            ambient 0.2 0.13 0.05 1.0
+            diffuse 0.3163699256832886 0.17 0.04 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Dark_brown genrated by blender2ogre 0.6.0
+
+material Dark_brown 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Dark_brown
+        {
+            ambient 0.1 0.03 0.0 1.0
+            diffuse 0.010386426156556994 0.006418553835430052 0.002428215964558958 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Dark_metal genrated by blender2ogre 0.6.0
+
+material Dark_metal 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Dark_metal
+        {
+            ambient 0.3433981165289879 0.3433981165289879 0.3433981165289879 1.0
+            diffuse 0.027471849731681486 0.027471849731681486 0.027471849731681486 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// lighter_metal genrated by blender2ogre 0.6.0
+
+material lighter_metal 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass lighter_metal
+        {
+            ambient 1.0000001192092896 1.0000001192092896 1.0000001192092896 1.0
+            diffuse 0.800000107288362 0.800000107288362 0.800000107288362 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// med_metal genrated by blender2ogre 0.6.0
+
+material med_metal 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass med_metal
+        {
+            ambient 0.45641106367111206 0.45641106367111206 0.45641106367111206 1.0
+            diffuse 0.3651288563777335 0.3651288563777335 0.3651288563777335 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Med_2 genrated by blender2ogre 0.6.0
+
+material Med_2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Med_2
+        {
+            ambient 0.623960554599762 0.623960554599762 0.623960554599762 1.0
+            diffuse 0.499168451117999 0.499168451117999 0.499168451117999 1.0
+            specular 0.0 0.0 0.0 1.0 12.
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

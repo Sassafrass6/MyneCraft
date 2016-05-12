@@ -1,0 +1,25 @@
+material Cube-Glass 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Cube-Glass
+        {
+            ambient 0.80 0.80 0.80 0.6
+            diffuse 0.64 0.64 0.64 0.6
+
+            alpha_to_coverage on
+            depth_write off
+            lighting on
+            scene_blend alpha_blend
+            scene_blend_op source1 src_manual src_texture 0.8
+
+            texture_unit 
+            {
+                texture Cube-Glass.png
+                scale 1.0 1.0
+            }
+        }
+    }
+}

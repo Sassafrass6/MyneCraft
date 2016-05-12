@@ -1,0 +1,4 @@
+cd build
+chmod u+x buildit makeit
+./buildit
+./MyneCraft

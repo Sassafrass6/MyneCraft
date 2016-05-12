@@ -1,0 +1,7 @@
+#!/bin/sh
+rm -r [Bb]uild
+mkdir build
+cp -avr Linux-Build-Tools/. build/
+cd build
+./buildit
+./MyneCraft
